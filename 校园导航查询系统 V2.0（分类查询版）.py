@@ -27,6 +27,12 @@ campus_places = [
     {"id": 16, "name": "3A宿舍楼", "location": "学生宿舍"},
     {"id": 17, "name": "3B宿舍楼", "location": "学生宿舍"},
 ]
+#KMP算法
+def_get_next(pattern):
+nxt=[0]*len(pattern)
+j=0
+for i in range (1,len(pattern)):
+
 
 
 # =========================
