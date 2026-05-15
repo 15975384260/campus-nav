@@ -27,6 +27,29 @@ campus_places = [
     {"id": 16, "name": "3A宿舍楼", "location": "学生宿舍"},
     {"id": 17, "name": "3B宿舍楼", "location": "学生宿舍"},
 ]
+#KMP算法
+def get_next(pattern):
+nxt=[0]*len(pattern)
+j=0
+for i in range(i,len(pattern)):
+while j>0 and
+pattern[i]!=pattern[j]:
+    j=nxt[j-1]
+if pattern[i]==pattern[j]：
+j+=1
+nxt[i]=j
+return nxt
+def KMP（text,pattern):
+if pattern=="":
+    retutn True
+nxt=get_next(pattern)
+j=0
+for i in range and text[i]!=
+j+=1
+if j==len(pattern)
+ return True
+return False
+
 
 
 # =========================
